@@ -1,0 +1,44 @@
+.liquid-image{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+   border-radius: 10px;
+}
+.ingredient-card{
+    background-color: rgb(159, 206, 211);
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    margin: 20px;
+}
+.ingredients-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container2{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.section2{
+    height: 150px;
+    width: 400px;
+    margin-left: 20px;
+}
+.ingredient-content-conttainer{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.seeMore{
+    border-width: 0px;
+    background-color: transparent;
+    color: #003569;
+    text-decoration: initial;
+    cursor: pointer;
+}
